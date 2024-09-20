@@ -25,7 +25,7 @@ IS_POSIX = sys.platform.startswith(("darwin", "cygwin", "linux", "linux2"))
 
 
 class Patcher(object):
-    lock = Lock()
+    # lock = Lock()
     exe_name = "chromedriver%s"
 
     platform = sys.platform
